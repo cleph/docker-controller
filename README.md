@@ -66,9 +66,4 @@ Contributions are welcome! Please submit a pull request or open an issue for sug
 
 This project was created to provide a simple way to manage Docker containers through a web interface built with Flask.
 
-markdown
-Copy code
 
-### Notes:
-1. **Screenshots**: Replace `path/to/screenshot.png` with the actual path to a screenshot in your repository.
-2. **License**: Add a `LICENSE` file if you're planning to specify licensing terms.
