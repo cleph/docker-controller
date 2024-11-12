@@ -59,6 +59,9 @@
         .button-delete {
             background-color: #dc3545;
         }
+        .button-inspect {
+            background-color: #007bff;
+        }
         .button:hover {
             opacity: 0.9;
         }
@@ -82,6 +85,7 @@
                 <a href="{{ url_for('restart_container', container_id=container.id) }}" class="button button-restart">Restart</a>
                 <a href="{{ url_for('stop_container', container_id=container.id) }}" class="button button-stop">Stop</a>
                 <a href="{{ url_for('delete_container', container_id=container.id) }}" class="button button-delete">Delete</a>
+                <a href="{{ url_for('inspect_container', container_id=container.id) }}" class="button button-inspect">Inspect</a>
             </td>
         </tr>
         {% endfor %}
